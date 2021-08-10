@@ -1,0 +1,96 @@
+*{
+    margin: 0%;
+}
+.footer-upper-part{
+    font-weight: 700;
+    font-size: 20px;
+    background-color: #128ced;
+    height: 80px;
+}
+
+.text-color{
+    color: white;
+}
+.text-color:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+.footer-midle-part{
+    background-color: #f9f9f9;
+    margin-top: 10px;
+}
+.middle-part-text-color{
+    color: #0e70be;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.middle-part-text-color:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    
+}
+
+.footer-forth-part{
+    border-top: .1rem solid #ddd;
+}
+
+.test:hover{
+    background-color: none;
+}
+
+.footer-second-part{
+    margin-top: 10px;
+}
+
+.footer-third-part{
+    margin-top: 50px;
+
+}
+
+.footer-forth-part{
+    margin-top: 10px;
+}
+.play-sector-hover:hover{
+    cursor: pointer;
+
+}
+.l{
+    display: flex;
+}
+/* .inline{
+    display: inline;
+} */
+
+.social-container{
+    display: flex;
+    flex-direction: row;
+}
+.social-media-icon{
+    border: 1px solid black;
+    transition: 0.4s;
+    padding: 4px 7px;
+    border-radius: 50px;
+    margin-right: 6px;
+}
+.social-media-icon:hover{
+    color: white;
+    /* background-color: cyan; */
+}
+.icon1:hover{
+    background-color: #3b5998;
+
+}
+.icon2:hover{
+    background-color: #1DA1F2;
+
+}
+.icon3:hover{
+    background-color: black;
+
+}
+
+.icon4:hover{
+    background-color: red;
+
+}

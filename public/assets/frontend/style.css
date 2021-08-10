@@ -1,0 +1,378 @@
+.owl-dots {
+  text-align: center;
+  padding-top: 0;
+  margin-top: -0.75em;
+}
+.owl-dots button.owl-dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  display: inline-block;
+  background: #ccc;
+  margin: 0 3px;
+}
+.owl-dots button.owl-dot.active {
+  background-color: #000;
+}
+.owl-dots button.owl-dot:focus {
+  outline: none;
+}
+.owl-nav button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.38) !important;
+}
+.owl-dots button span {
+  font-size: 70px;
+  position: relative;
+  top: -5px;
+}
+.owl-nav button:focus {
+  outline: none;
+}
+
+.notify {
+  background: #f6f6f6;
+  padding: 20px 40px;
+  border: 1px solid #e2e2e2;
+}
+.notify h4 {
+  margin: 0;
+  padding: 0;
+}
+.notify a {
+  color: #d30000;
+  text-decoration: none;
+}
+
+#customer-favourites {
+}
+#customer-favourites .card {
+  text-align: center;
+}
+#customer-favourites .card img {
+  width: 100%;
+}
+#customer-favourites .card a {
+}
+
+.carousel-wrapper {
+  width: 1000px;
+  margin: auto;
+  position: relative;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.owl-carousel .owl-nav {
+  overflow: hidden;
+  height: 0px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: #5110e9;
+}
+
+.owl-carousel .item {
+  text-align: center;
+}
+
+.owl-carousel .nav-button {
+  height: 50px;
+  width: 25px;
+  cursor: pointer;
+  position: absolute;
+  top: 110px !important;
+}
+
+.owl-carousel .owl-prev.disabled,
+.owl-carousel .owl-next.disabled {
+  pointer-events: none;
+  opacity: 0.25;
+}
+
+.owl-carousel .owl-prev {
+  left: -35px;
+}
+
+.owl-carousel .owl-next {
+  right: -35px;
+}
+
+.owl-theme .owl-nav [class*="owl-"] {
+  color: #ffffff;
+  font-size: 39px;
+  background: #000000;
+  border-radius: 3px;
+}
+
+.owl-carousel .prev-carousel:hover {
+  background-position: 0px -53px;
+}
+
+.owl-carousel .next-carousel:hover {
+  background-position: -24px -53px;
+}
+
+.top-brands img {
+  width: 100%;
+}
+
+.new-pet img {
+  width: 100%;
+}
+.filter-sidebar ul {
+  padding-left: 6px;
+}
+.filter-sidebar ul li {
+  list-style-type: none;
+}
+
+.filter-result {
+}
+.search-and-filter .card .about-product img {
+  width: 100%;
+}
+.search-and-filter .card a {
+  color: #080808;
+}
+.search-and-filter .card a:hover {
+  text-decoration: none;
+  color: #1a1a1a;
+}
+
+.mySlides {
+  display: block;
+}
+
+.mySlides img {
+  height: 420px;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #ff0000;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+  height: 60px;
+  width: 60px;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: 100%;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  margin-top: 6px;
+  display: none;
+  width: 100%;;
+}
+
+
+
+
+.review-section {
+}
+.review-section h2 {
+}
+.review-image {
+}
+.review-image img {
+  width: 100%;
+}
+.review-product-info {
+  margin-top: 40px;
+}
+.review-product-info p {
+  margin: 0;
+}
+.rate {
+  color: orange;
+  font-size: 30px;
+  margin: 0;
+}
+.rate-hover-layer {
+  color: orange;
+}
+.rate-select-layer {
+  color: orange;
+}
+
+.additional-feedback > h6 {
+  margin: 0;
+}
+.additional-feedback .col {
+  background: #f1f1f1;
+  border: 1px solid #dadada;
+  padding: 10px 15px 20px;
+}
+.additional-feedback label {
+}
+.additional-feedback input {
+  position: absolute;
+  top: 60%;
+  left: 10%;
+  transform: translate(50%, 0%);
+  height: 16px;
+  width: 16px;
+}
+.guideline {
+  background-color: #e7e7e7;
+  border: 1px solid #a3a3a3;
+  padding: 10px 20px;
+}
+
+.item-added .item-info img {
+  width: 100%;
+}
+.item-added .item-info p {
+  margin-top: 10px;
+  color: green;
+  font-size: 26px;
+}
+.item-added .added-ship {
+  padding: 10px;
+  background-color: #efefef;
+  border: 1px solid #c5c5c5;
+}
+.item-added .added-ship p {
+  font-size: 18px;
+  text-align: center;
+}
+.item-added .added-ship hr {
+  border: 4px solid green;
+  border-radius: 5px;
+  color: green;
+}
+.proceeed-to-checkout .added-ship p {
+  margin: 0;
+}
+.proceeed-to-checkout .added-ship a {
+  border-radius: 1px;
+}
+
+@media only screen and (min-width: 768px) {
+  .proceeed-to-checkout {
+    padding: 0px 200px;
+  }
+}
+@media only screen and (min-width: 960px) {
+  .proceeed-to-checkout {
+    padding: 0px 300px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .proceeed-to-checkout {
+    padding: 0px 450px;
+  }
+}
+
+.item-in-cart {
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+.item-in-cart button {
+  /* position: absolute; */
+  background-color: transparent;
+  border: 1px solid #ca0000;
+  color: #ca0000;
+  cursor: pointer;
+  z-index: 1;
+  float: right;
+}
+.item-in-cart button p,
+.item-in-cart button i {
+  margin: 0;
+}
+.shopping-cart .item-info img {
+  width: 100%;
+}
+@media only screen and (max-width: 576px) {
+  .shopping-cart .item-info img {
+    width: 50%;
+  }
+}
+.shopping-cart .item-info a {
+  color: #161616;
+}
+.shopping-cart .item-info select {
+  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="40" height="30" ><text x="5" y="10" style="font: bold 12px Arial;">Items:</text></svg>')
+    no-repeat;
+    color: black;
+}
+.shopping-cart .added-ship {
+  padding: 10px;
+  background-color: #efefef;
+  border: 1px solid #c5c5c5;
+}
+.shopping-cart .added-ship p {
+  font-size: 18px;
+  text-align: center;
+}
+.shopping-cart .added-ship hr {
+  border: 4px solid green;
+  border-radius: 5px;
+  color: green;
+}
